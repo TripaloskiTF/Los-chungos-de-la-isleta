@@ -96,7 +96,7 @@ class Arbol
 	end
 
 	def Export(fileName)
-		puts "Algo"
+		puts "Barcos y Putas"
 	end
 
 	def Print
@@ -127,27 +127,6 @@ class Arbol
 		end
 	end
 end
-
-=begin
-arbol = Arbol.new("Hola que tal", 0)
-arbol.AddHijo("Me llamo Paca", 10)
-arbol.AddHijo("Me llamo Francisca", -10)
-
-arbol.NextLevel(0)
-
-arbol.AddHijo("Adios Paca", 0)
-
-arbol.PrevLevel()
-arbol.NextLevel(1)
-
-arbol.AddHijo("Adios Francisca", 5)
-arbol.AddHijo("Chao Pescao", -5)
-
-arbol.RestoreRoot()
-arbol.Print()
-
-puts("\n")
-=end
 
 arbol = Arbol.new('arbol1.arb')
 arbol.Print()
